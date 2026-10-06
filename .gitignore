@@ -1,0 +1,5 @@
+**/build/**
+**/.gradle/**
+**/.idea/**
+.gitpull.bat
+.gitpush.bat
