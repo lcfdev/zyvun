@@ -1,13 +1,13 @@
 # Zyvun（质匀播放器）
 
-本地 / 局域网 / NAS 直连播放器。手机与平板同一套界面浏览本机视频、Emby / Jellyfin、SMB，不转码、不强制云刮削。
+支持本地 / 局域网 / NAS 直连播放器，支持Emby / Jellyfin服务，支持Kodi NFO，支持danmu_api弹幕协议，支持自定义搜索弹幕，不转码、不强制云刮削。
 
-- **不全盘扫描**：只扫用户自己指定的目录，不申请「所有文件访问」、不偷偷翻整台设备
+- **不全盘扫描**：只扫用户自己指定的目录，不申请「所有文件访问」、不偷偷翻整台设备，不对文件增删改
 - **不上传用户数据**：片库、进度、配置都留在本机；应用完全本地运行，不经过作者的云
 - **永久无广告、永久免费**
 - **不开源**：写这版花了不少 AI 费用 🙂 源码先自己留着
 
-- 包名 `localhost.zyvun`，最低 Android 9.0
+- 包名 `localhost.zyvun`，TV版包名`localhost.zyvun.tv`，最低 Android 9.0
 - 原生 Java 17，不使用跨平台框架
 
 ---
@@ -54,9 +54,11 @@ ABI 仅 `armeabi-v7a` / `arm64-v8a`。允许明文 HTTP，方便局域网服务�
 
 ## 开源依赖（鸣谢）
 
-Media3、NextLib、FFmpeg、OkHttp、SMBJ、Glide、AndroidX、DanmakuFlameMaster、danmu_api。协议兼容 Emby / Jellyfin API 与 Kodi NFO。
+Media3、NextLib、FFmpeg、OkHttp、SMBJ、Glide、AndroidX、DanmakuFlameMaster、danmu_api。
 
-Zyvun 与上述产品无官方从属关系。请仅连接你有权访问的媒体，二次分发请遵守各组件许可（含 FFmpeg 的 LGPL/GPL）。
+协议兼容 Emby / Jellyfin API 与 Kodi NFO。
+
+Zyvun 与上述产品无官方从属关系。
 
 ---
 
@@ -64,3 +66,11 @@ Zyvun 与上述产品无官方从属关系。请仅连接你有权访问的媒�
 
 需要反馈、求片库折腾经验，进 **QQ 群：217032088**（极速交流）。
 
+---
+
+## 法律与免责
+
+· 本应用仅提供本地与局域网媒体播放能力，不提供任何影视内容。
+· 请仅连接你本人有权访问的媒体服务器与文件。
+· 弹幕内容来自你自行配置的服务，与本应用作者无关。
+· 应用按「现状」提供，不对播放兼容性、数据丢失作额外担保。
