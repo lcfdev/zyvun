@@ -7,7 +7,7 @@
 - **永久无广告、永久免费**
 - **不开源**：写这版花了不少 AI 费用 🙂 源码先自己留着
 
-- 包名 `localhost.zyvun`，最低 Android 7.0，目标 SDK 35
+- 包名 `localhost.zyvun`，最低 Android 9.0
 - 原生 Java 17，不使用跨平台框架
 
 ---
