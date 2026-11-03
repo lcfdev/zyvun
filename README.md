@@ -44,7 +44,7 @@
 | 层 | 选型 |
 | --- | --- |
 | 界面 | AppCompat、RecyclerView、SAF、WindowInsets、Leanback 可选 |
-| 播放 | Media3 ExoPlayer 1.8、NextLib/FFmpeg、自研 PlaybackEngine |
+| 播放 | Media3 ExoPlayer 1.8、自研 PlaybackEngine |
 | 网络 | OkHttp、Emby/Jellyfin REST、SMBJ |
 | 其它 | Glide、DanmakuFlameMaster、org.json、本地 JSON 缓存 |
 
@@ -54,7 +54,7 @@ ABI 仅 `armeabi-v7a` / `arm64-v8a`。允许明文 HTTP，方便局域网服务�
 
 ## 开源依赖（鸣谢）
 
-Media3、NextLib、FFmpeg、OkHttp、SMBJ、Glide、AndroidX、DanmakuFlameMaster、danmu_api。
+Media3、FFmpeg、OkHttp、SMBJ、Glide、AndroidX、DanmakuFlameMaster、danmu_api。
 
 协议兼容 Emby / Jellyfin API 与 Kodi NFO。
 
