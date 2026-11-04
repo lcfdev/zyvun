@@ -65,7 +65,8 @@
 | decoder_ffmpeg（Media3 官方 JNI 桥） | 自研模块，源自 androidx/media | Apache-2.0 | https://github.com/androidx/media |
 | FFmpeg | 自编译软解内核（含 AV1），无 GPL 组件 | LGPL-2.1+ | https://ffmpeg.org |
 
-硬解优先，失败再走 FFmpeg。FFmpeg 以静态链接编入 `libffmpegJNI.so`；App 主体通过动态加载该 so，可保持闭源。二次分发请保留 FFmpeg 的 LGPL 声明，并提供用户替换 / 重新链接该动态库的途径。
+硬解优先，失败再走 FFmpeg。FFmpeg 以静态链接编入 `libffmpegJNI.so`。
+ FFmpeg编译脚本 [build_ffmpeg.sh](https://github.com/lcfdev/decoder_ffmpeg/blob/master/build_ffmpeg.sh)
 
 ---
 
