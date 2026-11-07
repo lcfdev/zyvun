@@ -66,7 +66,7 @@
 | FFmpeg | 自编译软解内核（含 AV1），无 GPL 组件 | LGPL-2.1+ | https://ffmpeg.org |
 
 硬解优先，失败再走 FFmpeg。FFmpeg 以静态链接编入 `libffmpegJNI.so`。
- FFmpeg编译脚本 [build_ffmpeg.sh](https://github.com/lcfdev/decoder_ffmpeg/blob/master/build_ffmpeg.sh)
+ FFmpeg编译脚本 [build_ffmpeg.sh](https://gitee.com/lcfcode/java_decoder_ffmpeg/blob/master/build_ffmpeg.sh)
 
 ---
 
